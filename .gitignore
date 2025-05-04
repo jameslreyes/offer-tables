@@ -23,6 +23,7 @@ pnpm-lock.yaml
 /client/coverage/
 /client/.next/
 /client/out/
+/client/.react-router/
 
 # Server-specific
 /server/dist/

@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": ".ts",
+  "ignore": ["node_modules", "dist"],
+  "exec": "tsx -r module-alias/register ./src/index.ts"
+}
