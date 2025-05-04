@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Development
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Client-specific
+/client/build/
+/client/dist/
+/client/.env
+/client/coverage/
+/client/.next/
+/client/out/
+
+# Server-specific
+/server/dist/
+/server/build/
+/server/.env
+/server/coverage/
