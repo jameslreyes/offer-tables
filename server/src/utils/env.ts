@@ -1,10 +1,12 @@
-import { Environment } from '@/types/app';
+import { Environment } from '@_types/app';
 import dotenv from 'dotenv';
 dotenv.config();
 
 const baseRequiredEnv = [
   'PORT',
   'NODE_ENV',
+  'SUPABASE_URL',
+  'SUPABASE_SERVICE_ROLE_KEY',
 ];
 
 const requiredEnvVars = [

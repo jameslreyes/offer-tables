@@ -15,6 +15,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
     "dotenv": "^16.5.0",
     "express": "^5.1.0"
   },
@@ -30,6 +31,7 @@
   "_moduleAliases": {
     "@": "./src",
     "@config": "./src/config",
+    "@controllers": "./src/controllers",
     "@utils": "./src/utils",
     "@_types": "./src/types"
   }

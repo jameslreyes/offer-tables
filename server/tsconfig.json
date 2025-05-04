@@ -12,6 +12,7 @@
     "paths": {
       "@/*": ["./src/*"],
       "@config/*": ["./src/config/*"],
+      "@controllers/*": ["./src/controllers/*"],
       "@_types/*": ["./src/types/*"],
       "@utils/*": ["./src/utils/*"]
     }

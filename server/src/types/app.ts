@@ -4,5 +4,10 @@ export interface AppConfig {
   app: {
     port: number;
     env: Environment;
+  },
+
+  supabase: {
+    url: string;
+    serviceRoleKey: string;
   }
 }
