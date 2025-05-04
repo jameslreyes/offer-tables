@@ -1,4 +1,4 @@
-import { HealthController } from "@/types/controllers";
+import { HealthController } from "@_types/controllers";
 
 const healthController: HealthController = {
   check: (req, res) => {

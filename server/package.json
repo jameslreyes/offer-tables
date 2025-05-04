@@ -32,6 +32,7 @@
     "@": "./src",
     "@config": "./src/config",
     "@controllers": "./src/controllers",
+    "@routes": "./src/routes",
     "@utils": "./src/utils",
     "@_types": "./src/types"
   }

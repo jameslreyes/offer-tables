@@ -1,5 +1,5 @@
 import { AppConfig } from "@_types/app";
-import { getEnvironment, getEnvVar } from "@utils/env";
+import { getEnvironment, getEnvVar } from "@utils/env.utils";
 
 export const config: AppConfig = {
   app: {
