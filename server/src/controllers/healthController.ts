@@ -1,7 +1,7 @@
-import { Request, Response } from "express";
+import { HealthController } from "@/types/controllers";
 
-const healthController = {
-  check: (req: Request, res: Response): void => {
+const healthController: HealthController = {
+  check: (req, res) => {
     try {
       console.success(`healthController.ts --> check() --> Server is healthy`)
       res.status(200).json({
