@@ -1,0 +1,1 @@
+import supabaseClient from "@config/supabase.config";
